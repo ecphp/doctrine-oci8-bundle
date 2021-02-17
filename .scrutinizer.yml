@@ -1,4 +1,15 @@
-build: false
+build:
+    nodes:
+        analysis:
+            commands:
+                - composer install --ignore-platform-req=ext-oci8
+            environment:
+                php:
+                    version: 7.4
+            tests:
+                override:
+                    - php-scrutinizer-run
+
 filter:
     paths:
         - 'src/*'
