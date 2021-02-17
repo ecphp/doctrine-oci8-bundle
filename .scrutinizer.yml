@@ -1,8 +1,9 @@
 build:
     nodes:
         analysis:
-            commands:
-                - composer install --ignore-platform-req=ext-oci8
+            dependencies:
+                override:
+                - composer install --ignore-platform-req=ext-oci8 --no-interaction
             environment:
                 php:
                     version: 7.4
