@@ -14,7 +14,7 @@
         "php": ">= 7.4",
         "ext-oci8": "*",
         "ecphp/doctrine-oci8": "^1",
-        "symfony/dependency-injection": "^4.4"
+        "symfony/dependency-injection": "^5.2"
     },
     "require-dev": {
         "drupol/php-conventions": "^3.0",
