@@ -17,7 +17,7 @@
         "symfony/dependency-injection": ">= 4.4"
     },
     "require-dev": {
-        "drupol/php-conventions": "^3.0",
+        "drupol/php-conventions": "^4.0",
         "friends-of-phpspec/phpspec-code-coverage": "^6.0",
         "infection/infection": "^0.21.0",
         "infection/phpspec-adapter": "^0.1.2",
