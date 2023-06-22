@@ -11,9 +11,9 @@
         "symfony"
     ],
     "require": {
-        "php": ">= 7.4",
+        "php": ">= 8.1",
         "ext-oci8": "*",
-        "ecphp/doctrine-oci8": "^1",
+        "ecphp/doctrine-oci8": "dev-master",
         "symfony/dependency-injection": ">= 4.4"
     },
     "require-dev": {
