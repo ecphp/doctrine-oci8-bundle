@@ -13,7 +13,7 @@
     "require": {
         "php": ">= 8.1",
         "ext-oci8": "*",
-        "ecphp/doctrine-oci8": "dev-master",
+        "ecphp/doctrine-oci8": "dev-doctrine/bump-to-version-3",
         "symfony/dependency-injection": ">= 4.4"
     },
     "require-dev": {
